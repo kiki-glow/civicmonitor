@@ -26,7 +26,7 @@ To get started with CivicMonitor, follow these steps:
 
 1. **Clone the repository**:
     ```sh
-    git clone https://github.com/yourusername/civicmonitor.git
+    git clone https://github.com/kiki-glow/civicmonitor.git
     cd civicmonitor
     ```
 
