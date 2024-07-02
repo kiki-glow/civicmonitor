@@ -44,3 +44,9 @@ To get started with CivicMonitor, follow these steps:
 
 4. **Run the app**:
     ```sh
+    flutter run
+    ```
+
+## Usage
+
+Navigate through the app to manage cases and users. You can add new cases, view details, edit existing cases, and manage user roles and permissions.
