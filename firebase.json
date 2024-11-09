@@ -1,0 +1,45 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "civicmonitor-f3b39",
+          "appId": "1:218586654200:android:b1681934a6fd620196a20d",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "civicmonitor-f3b39",
+          "configurations": {
+            "android": "1:218586654200:android:b1681934a6fd620196a20d",
+            "ios": "1:218586654200:ios:71f656f9725e594596a20d",
+            "macos": "1:218586654200:ios:71f656f9725e594596a20d",
+            "web": "1:218586654200:web:8c4b2f76a2f88b4a96a20d",
+            "windows": "1:218586654200:web:80ac5ba88bcf0bd696a20d"
+          }
+        }
+      }
+    }
+  },
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ],
+      "predeploy": [
+        "npm --prefix \"$RESOURCE_DIR\" run lint"
+      ]
+    }
+  ]
+}

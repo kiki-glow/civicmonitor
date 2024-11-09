@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "218586654200",
+    "project_id": "civicmonitor-f3b39",
+    "storage_bucket": "civicmonitor-f3b39.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:218586654200:android:b1681934a6fd620196a20d",
+        "android_client_info": {
+          "package_name": "com.example.civicmonitor"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACwh3FuKk5Chu4pqS1Gp4q-O6w8iPybP0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
